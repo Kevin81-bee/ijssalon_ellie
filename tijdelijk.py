@@ -16,7 +16,7 @@ reclame_tekst3 = reclame_tekst2.upper()
 #1.7
 reclame_tekst4 = reclame_tekst3.split()
 
-#1.8/1.9
+#1.8/1.9/1.10
 for el in reclame_tekst4:
     if len(el) >= 5:
         print(el.upper())
